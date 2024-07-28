@@ -31,5 +31,13 @@
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M21.333 22c0-0.93 0-1.396-0.115-1.774-0.259-0.852-0.926-1.519-1.778-1.778-0.379-0.115-0.844-0.115-1.774-0.115h-3.333c-0.93 0-1.396 0-1.774 0.115-0.852 0.259-1.519 0.926-1.778 1.778-0.115 0.379-0.115 0.844-0.115 1.774"></path>
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M16 16c1.657 0 3-1.343 3-3s-1.343-3-3-3c-1.657 0-3 1.343-3 3s1.343 3 3 3z"></path>
 </symbol>
+<symbol id="icon-arrow-left" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26.667 16h-21.333"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M13.333 24l-8-8 8-8"></path>
+</symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M5.333 16h21.333"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M18.667 8l8 8-8 8"></path>
+</symbol>
 </defs>
 </svg>
