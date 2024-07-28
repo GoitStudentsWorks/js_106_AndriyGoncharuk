@@ -1,5 +1,12 @@
 .benefits-section {
 }
+.container-benefits {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 .benefits-title {
   font-family: 'Inter Tight', sans-serif;
@@ -10,21 +17,22 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: rgba(250, 250, 250, 0.4);
+  margin-top: 64px;
+  margin-bottom: 32px;
 }
-.benefits-container {
-}
+
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
-  margin-bottom: 32px;
-  margin-top: 32px;
+  margin-bottom: 16px;
+  /* margin-top: 16px; */
 }
 .benefits-item {
   width: calc(50% - 10px);
   margin-bottom: 20px;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   border-radius: 20px;
   padding: 24px;
@@ -32,6 +40,7 @@
   height: 270px;
   background: #242527;
 }
+
 .benefits-icon {
   border-radius: 10px;
   width: 48px;
@@ -74,6 +83,7 @@
   width: 187px;
   height: 55px;
   cursor: pointer;
+  margin-top: 32px;
 }
 .benefits-button:hover {
   background-color: #888;
@@ -81,28 +91,47 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container-benefits {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
   .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-top: 32px; */
     margin-bottom: 64px;
+  }
+  .benefits-item {
+    width: calc(50% - 16px);
+  }
+  .benefits-button {
+    margin-top: 64px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .benefits-container {
-    /* width: 1376px; */
-    /* height: 675px; */
-    margin-left: 696px;
+  .container-benefits {
+    max-width: 1440px;
+  }
+  .left-div {
+    width: 696px;
   }
 
   .benefits-list {
-    margin-bottom: 32px;
-    margin-top: 0px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
+    margin-left: 696px;
     /* row-gap: 16px; */
-    /* column-gap: 16px; */
+    column-gap: 16px;
+    margin-top: 0px;
   }
-  .benefits-item {
-    margin-right: 16px;
+  .benefits-button {
+    margin-left: 696px;
+  }
+  .benefits-title {
+    margin-bottom: 0px;
   }
 }
