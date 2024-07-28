@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
       if (parent.classList.contains('is-active')) {
         parent.classList.remove('is-active');
         panel.style.height = '0';
-        icon.setAttribute('href', '../img/icons.svg#icon-arrow-down');
+        icon.setAttribute('href', '../img/symbol-defs.svg#icon-down');
       } else {
         parent.classList.add('is-active');
         panel.style.height = panel.scrollHeight + 'px';
-        icon.setAttribute('href', '../img/icons.svg#icon-arrow-up');
+        icon.setAttribute('href', '../img/symbol-defs.svg#icon-up');
       }
     });
   });
