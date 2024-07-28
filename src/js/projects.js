@@ -4,7 +4,7 @@ import Swiper from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 
 
-const  swiper = new Swiper(".projects-swiper-container", {
+const swiper = new Swiper(".projects-swiper-container", {
     slidesPerView: 3,
     spaceBetween: 30,
     freeMode: true,
