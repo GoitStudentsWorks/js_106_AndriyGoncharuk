@@ -1,7 +1,6 @@
-// import Swiper JS
 import Swiper from 'swiper';
-// import Swiper styles
-import 'swiper/swiper-bundle.min.css';
+import { Navigation, Autoplay } from 'swiper/modules';
+import 'swiper/css';
 
 
 const swiper = new Swiper(".projects-swiper-container", {
