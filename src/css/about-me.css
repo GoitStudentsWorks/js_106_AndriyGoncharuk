@@ -16,7 +16,9 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  background-color: #000;
+  background-color: #1c1d20;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -122,12 +124,6 @@
   }
 }
 
-.about-me-ac-item-trigger {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .about-me-ac-header {
   font-family: Inter Tight;
   font-size: 16px;
@@ -188,7 +184,7 @@
   height: 36px;
   border-radius: 100px;
   border: 1px solid #fafafa33;
-  background-color: #000;
+  background-color: #1c1d20;
 }
 
 @media screen and (min-width: 1440px) {
@@ -198,11 +194,31 @@
   }
 }
 
+.about-me-trigger-icon {
+  width: 18px;
+  height: 18px;
+  stroke: #FAFAFA;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-trigger-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .about-me-ac-list-item {
   margin-bottom: 10px;
 }
 
 .about-me-swiper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.about-me-swiper-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -235,4 +251,22 @@
 
 .about-me-swiper-button-next {
   margin-left: 55px;
+}
+
+.about-me-swiper-btn {
+  background-color: #1c1d20;
+}
+
+.about-me-swiper-btn-icon {
+stroke: #3B3B3B;
+fill: none;
+width: 28px;
+height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-swiper-btn-icon {
+    width: 40px;
+    height: 40px;
+  }
 }
