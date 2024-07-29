@@ -1,19 +1,20 @@
 import Swiper from 'swiper';
-
-// import Swiper styles
+import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
+
 
 document.addEventListener('DOMContentLoaded', function() {
     // Swiper: Slider
     const swiper = new Swiper('.projects-swiper-container', {
+        modules: [Navigation, Autoplay],
         loop: true,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
+            nextEl: '.projects-button-next',
+            prevEl: '.projects-button-prev'
         },
         autoplay: {
-            delay: 2500,
+            delay: 2000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true
         },
@@ -27,5 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
             768: {
                 slidesPerView: 1,
                 spaceBetween: 20
+<<<<<<< Updated upstream
+=======
+            }
+        }
+    });
+    swiper.slideNext();
+});
+>>>>>>> Stashed changes
 
 
