@@ -1,0 +1,255 @@
+[33mcommit e8a51a32c2a7b71080615923aef42ca394a0e4ef[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/projects-section[m[33m)[m
+Author: Alena Maliushchenko <alenamaliushchenko@gmail.com>
+Date:   Sun Jul 28 20:07:04 2024 +0300
+
+    add projects file
+
+[33mcommit 54424ef88e8bd6b399f3701aac000ff4f6902fbe[m
+Author: AndriyGoncharuk <160170957+AndriyGoncharuk@users.noreply.github.com>
+Date:   Thu Jul 25 23:02:12 2024 +0300
+
+    favicon
+
+[33mcommit bf1db18d2cce28b2835b5479427bd55ae3ee928e[m
+Author: AndriyGoncharuk <160170957+AndriyGoncharuk@users.noreply.github.com>
+Date:   Thu Jul 25 22:31:41 2024 +0300
+
+    svg
+
+[33mcommit 535c0d2f51c18d560f19296754a78edfccee5d56[m
+Author: AndriyGoncharuk <160170957+AndriyGoncharuk@users.noreply.github.com>
+Date:   Thu Jul 25 22:09:37 2024 +0300
+
+    style
+
+[33mcommit 3e94bf8aec7b5fa0599c9486e4d24ab33ebf5b89[m
+Author: AndriyGoncharuk <160170957+AndriyGoncharuk@users.noreply.github.com>
+Date:   Thu Jul 25 22:05:39 2024 +0300
+
+    styles
+
+[33mcommit 1c58994c1197d71cf180b6e2692264e7ac91e3f4[m
+Author: AndriyGoncharuk <160170957+AndriyGoncharuk@users.noreply.github.com>
+Date:   Thu Jul 25 19:03:03 2024 +0300
+
+    json
+
+[33mcommit 857c55e6d85e10af07cf09fe420e64e6348f6449[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Fri May 31 11:50:41 2024 +0300
+
+    Update README.tr.md
+
+[33mcommit 4b7d696fe5a20a1661e1c3c95d54898fc70b0bc3[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Fri May 31 11:48:25 2024 +0300
+
+    Update README.tr.md
+
+[33mcommit f722b83edd69a15c34f7f3212b5e9f57294092c2[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Fri May 31 11:46:51 2024 +0300
+
+    Update README.tr.md
+
+[33mcommit e2ef959f8019c2d5aae5c4d308ee87fcfcf6b68a[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Fri May 31 11:45:18 2024 +0300
+
+    Update README.tr.md
+
+[33mcommit 52881ff1210424e72bfbff4346cade01de13d899[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Fri May 31 11:44:30 2024 +0300
+
+    TR translation added
+
+[33mcommit 2966cbd3253edc9df08983bbaff22c4c1f7c16d3[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Thu May 30 20:57:06 2024 +0300
+
+    Create README.tr.md
+    
+    file for Turkish added
+
+[33mcommit 1865e35ba01e35196a9e6dead3733dc34b38e435[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Sat May 18 13:59:24 2024 +0300
+
+    Update README.ro.md
+
+[33mcommit 27b51e82b0ddac8aa31e2bcb766403ab82307fa6[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Sat May 18 13:59:11 2024 +0300
+
+    Update README.ro.md
+
+[33mcommit a6ef5c6b7a3932254c2eeee5cc46b0faeeec8d44[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Fri Mar 29 10:24:43 2024 +0100
+
+    pl translation added
+
+[33mcommit bb4d1937d44051ca2644826f209cbb7f73e42f4f[m
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Sun Feb 4 14:18:59 2024 +0200
+
+    change page title
+
+[33mcommit cf3529f50f7203287001bf92091689e4ccd05ff1[m
+Merge: d447828 d6f24fa
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Sun Feb 4 14:17:38 2024 +0200
+
+    Merge pull request #19 from goitacademy/dependabot/npm_and_yarn/vite-4.5.2
+    
+    Bump vite from 4.0.5 to 4.5.2
+
+[33mcommit d6f24fa342378a4edacc1f9022b940824c957b38[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 19 22:35:47 2024 +0000
+
+    Bump vite from 4.0.5 to 4.5.2
+    
+    Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 4.0.5 to 4.5.2.
+    - [Release notes](https://github.com/vitejs/vite/releases)
+    - [Changelog](https://github.com/vitejs/vite/blob/v4.5.2/packages/vite/CHANGELOG.md)
+    - [Commits](https://github.com/vitejs/vite/commits/v4.5.2/packages/vite)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: vite
+      dependency-type: direct:development
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit d447828b161bbfda8522a56d09381029e69085c0[m
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Wed Dec 27 17:02:56 2023 +0200
+
+    Update index.html
+
+[33mcommit 63a0618d3d28af20d7ec7daef0aed49f533a7d55[m
+Merge: dfedb94 8087171
+Author: Grygoriy Chernish <63448238+GrygoriyChernish@users.noreply.github.com>
+Date:   Tue Oct 31 23:05:18 2023 +0200
+
+    Merge pull request #18 from Yaroslav-Zozulya/fix
+    
+    fix
+
+[33mcommit dfedb94d0f7446f83483f82d6c73287ea8b1b57c[m
+Merge: aa615c9 b55ca35
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Tue Oct 31 22:29:25 2023 +0200
+
+    Merge pull request #17 from Yaroslav-Zozulya/new-deploy-config
+    
+    delete last update deploy.yaml and update vite config
+
+[33mcommit 80871712bb9ec7fac8ee1f1b20ccf1fc6a3c79ef[m
+Author: Yaroslav-Zozulya <my.dev.stories@gmail.com>
+Date:   Tue Oct 31 23:04:52 2023 +0300
+
+    fix
+
+[33mcommit b55ca358ba3c798b1fb2a980e39e7a53cc185f33[m
+Author: Yaroslav-Zozulya <my.dev.stories@gmail.com>
+Date:   Tue Oct 31 22:21:57 2023 +0300
+
+    delete last update deploy.yaml and update vite config
+
+[33mcommit aa615c9bd97970168cb60fce59f36e7dac113a82[m
+Merge: df90ff5 b3d8474
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Tue Oct 31 13:22:33 2023 +0200
+
+    Merge pull request #16 from Yaroslav-Zozulya/fix-new-bug
+    
+    update vite.config and deploy.yaml
+
+[33mcommit df90ff5a67620381509ce322f207004955b697a7[m
+Merge: 786ecb9 9f0e7ee
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Tue Oct 31 13:22:16 2023 +0200
+
+    Merge pull request #14 from goitacademy/dependabot/npm_and_yarn/postcss-8.4.31
+    
+    Bump postcss from 8.4.20 to 8.4.31
+
+[33mcommit b3d84744813b28f19ab8b11035c7bf7a0951bde9[m
+Author: Yaroslav-Zozulya <my.dev.stories@gmail.com>
+Date:   Tue Oct 31 13:13:00 2023 +0300
+
+    add sourcemap for build
+
+[33mcommit 69f04bef835b2c0c29b5c4734eb64de30c8070ad[m
+Author: Yaroslav-Zozulya <my.dev.stories@gmail.com>
+Date:   Sun Oct 29 22:46:38 2023 +0300
+
+    update vite.config
+
+[33mcommit a2a1daae657e0fa58e666c91531f9b2f4e7aabae[m
+Author: Yaroslav-Zozulya <my.dev.stories@gmail.com>
+Date:   Sun Oct 29 22:33:12 2023 +0300
+
+    update config and deploy
+
+[33mcommit 786ecb9fdd36f33f8f4d558bbe0fdc23eb868bcf[m
+Merge: 4672173 3b50d2f
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Thu Oct 12 22:18:38 2023 +0300
+
+    Merge pull request #15 from Yaroslav-Zozulya/fix-config-for-axios
+    
+    update vite confog
+
+[33mcommit 3b50d2fcade5be73a8031de78c213aa4a32a950f[m
+Author: Yaroslav-Zozulya <my.dev.stories@gmail.com>
+Date:   Thu Oct 12 21:48:25 2023 +0300
+
+    update vite confog
+
+[33mcommit 9f0e7ee318667d2e5c90a31d4ab1a75090a31ae6[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Oct 7 10:33:06 2023 +0000
+
+    Bump postcss from 8.4.20 to 8.4.31
+    
+    Bumps [postcss](https://github.com/postcss/postcss) from 8.4.20 to 8.4.31.
+    - [Release notes](https://github.com/postcss/postcss/releases)
+    - [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/postcss/postcss/compare/8.4.20...8.4.31)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: postcss
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 4672173273af34d6bf35eaa0b846e5dc7154c32d[m
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Thu Sep 28 18:38:21 2023 +0300
+
+    Update vite.config.js
+
+[33mcommit 339c73860d63185f83fd4feb107c33f3c1efa771[m
+Merge: 57a29d5 5adef75
+Author: Alexander Repeta <alexander.repeta@gmail.com>
+Date:   Sat Jun 17 19:19:56 2023 +0300
+
+    Merge pull request #11 from goitacademy/dependabot/npm_and_yarn/vite-4.0.5
+    
+    Bump vite from 4.0.2 to 4.0.5
+
+[33mcommit 5adef75340a7d4c0d38ac6e61ef86f67599b71a7[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Jun 6 02:07:41 2023 +0000
+
+    Bump vite from 4.0.2 to 4.0.5
+    
+    Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 4.0.2 to 4.0.5.
+    - [Release notes](https://gi
