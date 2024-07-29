@@ -113,8 +113,8 @@
     margin-top: 32px;
   }
   
-  .projects-btn-prev,
-  .projects-btn-next {
+  .projects-button-prev,
+  .projects-button-next {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,12 +127,12 @@
     transition: background-color 0.3s ease-in-out;
     outline: none;
   }
-  .projects-btn-prev:hover,
-  .projects-btn-next:hover {
+  .projects-button-prev:hover,
+    .projects-button-next:hover {
     background-color: #3B3B3B;
   }
-  .projects-btn-prev:focus,
-  .projects-btn-next:focus {
+  .projects-button-prev:focus,
+    .projects-button-next:focus {
     background-color: #3B3B3B;
     box-shadow: 0 0 0 1px #fafafa80;
   }
@@ -142,8 +142,8 @@
     stroke: #fafafa80;
     fill: none;
   }
-  .projects-btn-prev:disabled,
-  .projects-btn-next:disabled {
+  .projects-button-prev:disabled,
+    .projects-button-next:disabled {
     opacity: 0.3;
   }
   
@@ -223,13 +223,12 @@
     .projects-swiper-buttons {
         gap: 20px;
         margin-top: 64px;
-      }
-    .projects-btn-prev,
-    .projects-btn-next {
+    }
+    .projects-button-prev,
+    .projects-button-next {
       width: 68px;
       height: 68px;
     }
-  
     .projects-icon {
       width: 32px;
       height: 32px;
