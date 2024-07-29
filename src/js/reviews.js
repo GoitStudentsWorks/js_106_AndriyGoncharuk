@@ -12,8 +12,9 @@ if (section) {
   const prevButton = section.querySelector('.reviews-btn-prev');
   const nextButton = section.querySelector('.reviews-btn-next');
 
+  // receiving data from api
 
-  async function getReviews() {
+  async function getReviews(value) {
     const BASE_URL = 'https://portfolio-js.b.goit.study/api';
     const END_POINT = '/reviews';
 
@@ -21,14 +22,10 @@ if (section) {
 
     try {
       const res = await fetch(url);
-      if (!res.ok) {
-        throw new Error(`HTTP error! status: ${res.status}`);
-      }
-      const data = await res.json();
-      console.log('Fetched data:', data); 
-      return data;
+
+      return res.json();
     } catch (err) {
-      console.error('Fetch error:', err); 
+      console.log(err);
       iziToast.error({
         position: 'topRight',
         message: 'Not Found',
@@ -37,7 +34,7 @@ if (section) {
     }
   }
 
-
+  // creating markup for review card
 
   function renderReview(data) {
     return data
@@ -55,7 +52,7 @@ if (section) {
       .join('');
   }
 
- 
+  // Function to render the reviews
 
   async function renderReviews() {
     try {
@@ -125,7 +122,7 @@ if (section) {
         console.log('No reviews to display');
       }
     } catch (err) {
-      console.error('Render error:', err); 
+      console.log(err);
       iziToast.error({
         position: 'topRight',
         message: 'Failed to load reviews',
