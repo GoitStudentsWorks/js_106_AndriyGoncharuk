@@ -9,7 +9,6 @@
   margin-top: 64px;
 }
 
-
 .swiper {
   overflow: hidden;
 }
@@ -20,9 +19,9 @@
 }
 
 .swiper .reviews-card {
+  overflow-y: auto;
   display: flex;
-  height: 302px;
-  width: 332px;
+  min-height: 302px;
   flex-direction: column;
   padding: 32px 24px;
   border: 1px solid #fafafa33;
@@ -30,6 +29,10 @@
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
   background-color: var(--cards);
+  margin-right: 0px;
+}
+.reviews-card {
+  height: auto;
 }
 
 .swiper .reviews-card:hover {
@@ -41,6 +44,7 @@
   height: 48px;
   border-radius: 10px;
   background-color: var(--main-text);
+  margin-bottom: 32px;
 }
 
 .reviews-card-data {
@@ -63,7 +67,6 @@
   line-height: 1.5;
   letter-spacing: -0.02em;
   opacity: 0.6;
-  
 }
 
 .reviews-swiper-buttons {
@@ -111,20 +114,28 @@
 .reviews-btn-next:disabled {
   opacity: 0.3;
 }
-
+@media screen and (min-width: 375px) {
+  .swiper .reviews-card {
+    flex-basis: 343px;
+    height: 304px;
+  }
+}
 @media screen and (min-width: 768px) {
   .reviews-title {
     margin-top: 96px;
   }
-
+  .swiper .reviews-card {
+    flex-basis: 343px;
+    height: 304px;
+  }
   .reviews-btn-prev,
   .reviews-btn-next {
     width: 68px;
     height: 68px;
   }
-.swiper-wrapper{
-gap: 0;
-}
+  .swiper-wrapper {
+    gap: 0;
+  }
   .reviews-icon {
     width: 32px;
     height: 32px;
@@ -134,5 +145,10 @@ gap: 0;
 @media screen and (min-width: 1440px) {
   .reviews-title {
     margin-top: 164px;
+  }
+  .swiper .reviews-card {
+    max-width: 343px;
+    /* margin-right: 16px; */
+    flex: 1 0 calc(25% - 12px);
   }
 }
