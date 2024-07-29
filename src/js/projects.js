@@ -4,7 +4,7 @@ import Swiper from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Swiper: Slider
     const swiper = new Swiper('.projects-swiper-container', {
         loop: true,
@@ -27,5 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
             768: {
                 slidesPerView: 1,
                 spaceBetween: 20
+            }
+        }
+    });
+});
 
 
