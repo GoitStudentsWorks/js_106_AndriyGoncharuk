@@ -20,8 +20,8 @@
 
 .swiper .reviews-card {
   overflow-y: auto;
+  height: 302px;
   display: flex;
-  min-height: 302px;
   flex-direction: column;
   padding: 32px 24px;
   border: 1px solid #fafafa33;
@@ -30,9 +30,6 @@
   cursor: pointer;
   background-color: var(--cards);
   margin-right: 0px;
-}
-.reviews-card {
-  height: auto;
 }
 
 .swiper .reviews-card:hover {
@@ -50,8 +47,7 @@
 .reviews-card-data {
   display: flex;
   flex-direction: column;
-  max-width: 295px;
-  gap: 8px;
+  height: 100%;
 }
 
 .reviews-card-name {
@@ -67,6 +63,10 @@
   line-height: 1.5;
   letter-spacing: -0.02em;
   opacity: 0.6;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5; 
+  overflow: hidden;
 }
 
 .reviews-swiper-buttons {
@@ -114,20 +114,12 @@
 .reviews-btn-next:disabled {
   opacity: 0.3;
 }
-@media screen and (min-width: 375px) {
-  .swiper .reviews-card {
-    flex-basis: 343px;
-    height: 304px;
-  }
-}
+
 @media screen and (min-width: 768px) {
   .reviews-title {
     margin-top: 96px;
   }
-  .swiper .reviews-card {
-    flex-basis: 343px;
-    height: 304px;
-  }
+
   .reviews-btn-prev,
   .reviews-btn-next {
     width: 68px;
@@ -146,9 +138,5 @@
   .reviews-title {
     margin-top: 164px;
   }
-  .swiper .reviews-card {
-    max-width: 343px;
-    /* margin-right: 16px; */
-    flex: 1 0 calc(25% - 12px);
-  }
+
 }
