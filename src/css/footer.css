@@ -175,7 +175,7 @@
   background-color: var(--accent-color);
 }
 .contacts-link:hover {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.03em;
   transition: 0.25s;
 }
 /* Modal */
@@ -335,6 +335,10 @@
 
   .contacts-link {
     font-size: 1rem;
+  }
+  .contacts-link:hover {
+    letter-spacing: 0.1em;
+    transition: 0.25s;
   }
 
   .modal {
