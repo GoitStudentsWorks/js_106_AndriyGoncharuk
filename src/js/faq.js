@@ -16,7 +16,11 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     beforeClose: item => {
       const icon = item.querySelector('.icon-answer use');
+<<<<<<< Updated upstream
       icon.setAttribute('href', `${spriteUrl}#icon-down`);
+=======
+      icon.setAttribute('href', '/img/symbol-defs.svg#icon-down');
+>>>>>>> Stashed changes
     },
   });
 });
