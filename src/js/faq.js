@@ -2,7 +2,6 @@ import Accordion from 'accordion-js';
 import 'accordion-js/dist/accordion.min.css';
 
 document.addEventListener('DOMContentLoaded', function () {
-
   new Accordion('.accordion-container', {
     duration: 300,
     elementClass: 'faq-item',
@@ -11,12 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
     activeClass: 'is-active',
     beforeOpen: item => {
       const icon = item.querySelector('.icon-answer use');
-      icon.setAttribute('href', './img/icons.svg#icon-arrow-up');
+      icon.setAttribute('href', './img/symbol-defs.svg#icon-up');
     },
     beforeClose: item => {
       const icon = item.querySelector('.icon-answer use');
-      icon.setAttribute('href', './img/icons.svg#icon-arrow-down');
+      icon.setAttribute('href', './img/symbol-defs.svg#icon-down');
     },
-
   });
 });
