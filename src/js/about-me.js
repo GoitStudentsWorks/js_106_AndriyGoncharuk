@@ -3,7 +3,7 @@ import 'accordion-js/dist/accordion.min.css';
 
 new Accordion('.about-me-accordion-container', {
     duration: 400,
-    showMultiple: true
+    showMultiple: true,
   });
 
 // import Swiper from 'swiper';

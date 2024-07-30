@@ -103,18 +103,30 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-me-accordion-container {
+  div.about-me-container > ul.about-me-accordion-container {
     width: 704px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .about-me-accordion-container {
+  div.about-me-container > ul.about-me-accordion-container {
     width: 1368px;
   }
 }
 
-.about-me-ac-header {
+ul.about-me-accordion-container > li.ac {
+  margin-top: 20px;
+  border: none;
+  background-color: none;
+}
+
+@media screen and (min-width: 768px) {
+  ul.about-me-accordion-container > li.ac {
+    margin-top: 32px;
+  }
+}
+
+li.ac > h2.ac-header {
   display: flex;
   justify-content: space-between;
   font-family: Inter Tight;
@@ -127,7 +139,7 @@
   text-transform: uppercase;
 }
 
-.about-me-ac-text {
+div.ac-panel > p.ac-text {
   font-family: Inter Tight;
   font-size: 16px;
   font-weight: 500;
@@ -140,14 +152,14 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .about-me-ac-text {
+  div.ac-panel > p.ac-text {
     padding-top: 24px;
     padding-left: 696px;
     padding-right: 68px;
   }
 }
 
-.about-me-ac-add-text {
+div.ac-panel > p.about-me-add-text {
   font-family: Inter Tight;
   font-size: 16px;
   font-weight: 500;
@@ -160,18 +172,18 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-me-ac-add-text {
+  div.ac-panel > p.about-me-add-text {
     margin-top: 16px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .about-me-ac-add-text {
+  div.ac-panel > p.about-me-add-text {
     padding-left: 696px;
   }
 }
 
-.about-me-ac-trigger {
+h2.ac-header > button.ac-trigger {
   width: 36px;
   height: 36px;
   border-radius: 100px;
@@ -180,26 +192,26 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .about-me-ac-trigger {
+  h2.ac-header > button.ac-trigger {
     width: 40px;
     height: 40px;
   }
 }
 
-.about-me-trigger-icon {
+button.ac-trigger > svg.about-me-trigger-icon {
   width: 18px;
   height: 18px;
-  stroke: #FAFAFA;
+  stroke: #fafafa;
 }
 
 @media screen and (min-width: 768px) {
-  .about-me-trigger-icon {
+  button.ac-trigger > svg.about-me-trigger-icon {
     width: 20px;
     height: 20px;
   }
 }
 
-.about-me-ac-list-item {
+div.ac-text > li.about-me-ac-list-item {
   margin-bottom: 10px;
 }
 
@@ -250,10 +262,10 @@
 }
 
 .about-me-swiper-btn-icon {
-stroke: #3B3B3B;
-fill: none;
-width: 28px;
-height: 28px;
+  stroke: #3b3b3b;
+  fill: none;
+  width: 28px;
+  height: 28px;
 }
 
 @media screen and (min-width: 768px) {
