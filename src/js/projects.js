@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Swiper: Slider
     const swiper = new Swiper('.projects-swiper-container', {
         modules: [Navigation, Autoplay, Keyboard],
-        loop: true,
+        loop: false,
         keyboard: {
             enabled: true,
         },
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             prevEl: '.projects-button-prev'
         },
         autoplay: {
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true
         },
@@ -32,10 +32,34 @@ document.addEventListener('DOMContentLoaded', function() {
                 slidesPerView: 1,
                 spaceBetween: 20
             }
+        },
+        on: {
+            init: function() {
+                updateNavigationButtons(this);
+            },
+            slideChange: function() {
+                updateNavigationButtons(this);
+            },
         }
     });
-    swiper.slideNext();
+    function updateNavigationButtons(swiper) {
+        const prevButton = document.querySelector('.projects-button-prev');
+        const nextButton = document.querySelector('.projects-button-next');
+        
+        if (swiper.isBeginning) {
+            prevButton.disabled = true;
+        } else {
+            prevButton.disabled = false;
+        }
+
+        if (swiper.isEnd) {
+            nextButton.disabled = true;
+        } else {
+            nextButton.disabled = false;
+        }
+    }
 });
+
 
 
 
