@@ -1,9 +1,12 @@
 import Accordion from 'accordion-js';
 import 'accordion-js/dist/accordion.min.css';
 
-import Swiper from 'swiper';
-import 'swiper/css';
+new Accordion('.about-me-accordion-container', {
+    duration: 400,
+    showMultiple: true
+  });
 
-const accordion = new Accordion('.about-me-accordion-container');
+// import Swiper from 'swiper';
+// import 'swiper/css';
 
-const swiper = new Swiper('.about-me-swiper');
+// const swiper = new Swiper('.about-me-swiper');
