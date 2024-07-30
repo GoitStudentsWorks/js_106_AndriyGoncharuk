@@ -1,0 +1,264 @@
+.about-me-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-container {
+    gap: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-container {
+    gap: 96px;
+  }
+}
+
+.about-me-text-img-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-text-img-container {
+    flex-direction: row;
+  }
+}
+
+.about-me-text {
+  box-sizing: border-box;
+  padding: 32px;
+  height: 500px;
+  background-color: #242527;
+  border: none;
+  border-radius: 24px;
+  font-family: Inter Tight;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-text {
+    width: 704px;
+    height: 700px;
+    padding: 64px;
+    font-size: 38px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-text {
+    width: 680px;
+  }
+}
+
+.about-me-red {
+  color: #ed3b44;
+}
+
+.about-me-grey {
+  color: #fafafa66;
+}
+
+.about-me-img {
+  height: 500px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-img {
+    width: 704px;
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-img {
+    width: 680px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-accordion-container {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-accordion-container {
+    width: 1368px;
+  }
+}
+
+.about-me-ac-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fafafa66;
+  text-transform: uppercase;
+}
+
+.about-me-ac-text {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fafafa;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-ac-text {
+    padding-top: 24px;
+    padding-left: 696px;
+    padding-right: 68px;
+  }
+}
+
+.about-me-ac-add-text {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fafafa;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-ac-add-text {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-ac-add-text {
+    padding-left: 696px;
+  }
+}
+
+.about-me-ac-trigger {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  border: 1px solid #fafafa33;
+  background-color: #1c1d20;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-me-ac-trigger {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.about-me-trigger-icon {
+  width: 18px;
+  height: 18px;
+  stroke: #FAFAFA;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-trigger-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.about-me-ac-list-item {
+  margin-bottom: 10px;
+}
+
+.about-me-swiper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.about-me-swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.about-me-swiper-slide {
+  box-sizing: border-box;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  border: 1px solid #fafafa33;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  padding-top: 53px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-swiper-item {
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    padding-top: 88px;
+  }
+}
+
+.about-me-swiper-button-next {
+  margin-left: 55px;
+}
+
+.about-me-swiper-btn {
+  background-color: #1c1d20;
+}
+
+.about-me-swiper-btn-icon {
+stroke: #3B3B3B;
+fill: none;
+width: 28px;
+height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-swiper-btn-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
