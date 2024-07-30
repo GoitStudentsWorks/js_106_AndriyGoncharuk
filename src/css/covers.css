@@ -29,7 +29,6 @@ body, html {
     text-transform: uppercase;
     background: url(../img/elements_vectors.png) center no-repeat, #242527;
     background-size: contain;
-    margin-top: 0;
 }
 
 .covers-marquee__inner {
@@ -48,7 +47,7 @@ body, html {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .covers-marquee__line img {
@@ -87,7 +86,7 @@ body, html {
     }
     .covers-marquee__line {
         margin-right: 40px;
-        margin-top: 40px;
+        margin-top: 45px;
     }
 }
 
@@ -98,6 +97,6 @@ body, html {
     }
     .covers-marquee__line {
         margin-right: 40px;
-        margin-top: 40px;
+        margin-top: 45px;
     }
 }
