@@ -31,13 +31,35 @@ document.addEventListener('DOMContentLoaded', function() {
             768: {
                 slidesPerView: 1,
                 spaceBetween: 20
-<<<<<<< Updated upstream
-=======
             }
+        },
+        on: {
+            init: function() {
+                updateNavigationButtons(this);
+            },
+            slideChange: function() {
+                updateNavigationButtons(this);
+            },
         }
     });
-    swiper.slideNext();
+    function updateNavigationButtons(swiper) {
+        const prevButton = document.querySelector('.projects-button-prev');
+        const nextButton = document.querySelector('.projects-button-next');
+        
+        if (swiper.isBeginning) {
+            prevButton.disabled = true;
+        } else {
+            prevButton.disabled = false;
+        }
+
+        if (swiper.isEnd) {
+            nextButton.disabled = true;
+        } else {
+            nextButton.disabled = false;
+        }
+    }
 });
->>>>>>> Stashed changes
+
+
 
 
