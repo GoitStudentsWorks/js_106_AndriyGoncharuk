@@ -44,7 +44,7 @@
 .header-btn-mob {
   border: none;
   width: 28px;
-  height: 28px;
+  /* height: 28px; */
   margin: 0;
   padding: 0;
   background: transparent;
@@ -167,8 +167,8 @@
   /*  */
 
   .go-to-top {
-    font-size: 20px;
-    padding: 10px 15px;
+    font-size: 24px;
+    padding: 12px 18px;
   }
 }
 
@@ -214,11 +214,11 @@
   padding: 0;
 }
 .header-modal-menu-close-icon {
-  fill: #fafafa;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  stroke: #fafafa;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-modal-menu-close-icon:hover {
-  fill: #ed3b44;
+  stroke: #ed3b44;
 }
 
 .header-modal-menu {
@@ -236,13 +236,15 @@
   padding-bottom: 40px;
 }
 .header-modal-menu-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 12px;
   margin: auto;
 }
+
+.header-modal-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .header-modal-menu-item {
   position: relative;
   text-align: center;
