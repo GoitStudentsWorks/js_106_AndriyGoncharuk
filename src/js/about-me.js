@@ -28,7 +28,8 @@ const aboutMeSwiper = new Swiper('.about-me-swiper', {
     onlyInViewport: false,
     pageUpDown: true,
   },
-  navigation: {
-    nextEl: '.swiper-btn-next',
-  },
+});
+
+document.querySelector('.swiper-button-next').addEventListener('click', e => {
+  aboutMeSwiper.slideNext();
 });

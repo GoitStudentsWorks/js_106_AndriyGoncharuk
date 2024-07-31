@@ -238,21 +238,23 @@ ul.ac-text li.about-me-ac-list-item {
   padding: 0px;
 }
 
-.about-me-swiper {
-  overflow: hidden;
+.about-me-skills {
   display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
 }
 
-section#about-me .swiper-button-next:after{
+.about-me-swiper {
+  overflow: hidden;
+}
+
+section#about-me .swiper-button-next:after {
   content: none;
 }
 
 section#about-me .swiper-wrapper {
   width: 260px;
-  overflow: hidden;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -266,27 +268,13 @@ section#about-me .swiper-wrapper {
   }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
   section#about-me .swiper-wrapper {
     width: 1200px;
   }
 }
 
 section#about-me ul.swiper-wrapper .swiper-slide {
-  width: 130px !important;
-  height: 130px;
-  border-radius: 100px;
-  border: 1px solid #fafafa33;
-  font-family: Inter Tight;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  padding-top: 53px;
-}
-
-/* .swiper-slide-active{
   width: 130px;
   height: 130px;
   border-radius: 100px;
@@ -298,18 +286,24 @@ section#about-me ul.swiper-wrapper .swiper-slide {
   letter-spacing: -0.02em;
   text-align: center;
   padding-top: 53px;
-} */
+  transition: background-color 250ms ease-in-out;
+}
+
+section#about-me .swiper-slide-active{
+  background-color: #ED3B44;
+  border: none;
+}
 
 @media screen and (min-width: 768px) {
   section#about-me ul.swiper-wrapper .swiper-slide {
-    width: 200px !important;
+    width: 200px;
     height: 200px;
     font-size: 20px;
     padding-top: 88px;
   }
 }
 
-section#about-me .swiper-btn-next {
+section#about-me .swiper-button-next {
   margin-left: 55px;
 }
 
