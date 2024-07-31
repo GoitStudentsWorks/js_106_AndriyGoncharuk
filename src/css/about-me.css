@@ -244,7 +244,6 @@ ul.ac-text li.about-me-ac-list-item {
   flex-direction: row;
   align-items: center;
   position: relative;
-  gap: 40px;
 }
 
 section#about-me .swiper-button-next:after{
@@ -252,7 +251,8 @@ section#about-me .swiper-button-next:after{
 }
 
 section#about-me .swiper-wrapper {
-  /* width: 260px; */
+  width: 260px;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -260,7 +260,7 @@ section#about-me .swiper-wrapper {
   gap: 0px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   section#about-me .swiper-wrapper {
     width: 600px;
   }
@@ -270,7 +270,7 @@ section#about-me .swiper-wrapper {
   section#about-me .swiper-wrapper {
     width: 1200px;
   }
-} */
+}
 
 section#about-me ul.swiper-wrapper .swiper-slide {
   width: 130px !important;
@@ -309,7 +309,7 @@ section#about-me ul.swiper-wrapper .swiper-slide {
   }
 }
 
-section#about-me .swiper-button-next {
+section#about-me .swiper-btn-next {
   margin-left: 55px;
 }
 

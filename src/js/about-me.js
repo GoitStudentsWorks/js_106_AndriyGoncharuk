@@ -29,6 +29,6 @@ const aboutMeSwiper = new Swiper('.about-me-swiper', {
     pageUpDown: true,
   },
   navigation: {
-    nextEl: '.swiper-button-next',
+    nextEl: '.swiper-btn-next',
   },
 });
