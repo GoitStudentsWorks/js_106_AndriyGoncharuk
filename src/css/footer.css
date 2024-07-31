@@ -166,18 +166,27 @@
   font-style: normal;
   letter-spacing: -0.02em;
   color: var(--main-text-color);
-  transition: border 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  /* transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.25s cubic-bezier(0.4, 0, 0.2, 1); */
 }
+/* .contacts-link span {
+  display: inline-flex;
+  transition: 0.2s;
+  text-shadow: 0 50px var(--main-text-color);
+}
+.contacts-link:hover span {
+  transform: translateY(-50px);
+} */
 
 .contacts-item:hover {
   box-shadow: 0 0 10px var(--accent-color);
   background-color: var(--accent-color);
 }
-.contacts-link:hover {
+/* .contacts-link:hover {
   letter-spacing: 0.03em;
   transition: 0.25s;
-}
+} */
 /* Modal */
 
 .footer-backdrop {
@@ -336,10 +345,10 @@
   .contacts-link {
     font-size: 1rem;
   }
-  .contacts-link:hover {
+  /* .contacts-link:hover {
     letter-spacing: 0.1em;
     transition: 0.25s;
-  }
+  } */
 
   .modal {
     max-width: 493px;
