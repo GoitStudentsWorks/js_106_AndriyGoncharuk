@@ -1,24 +1,25 @@
 import Accordion from 'accordion-js';
 import 'accordion-js/dist/accordion.min.css';
+import spriteUrl from '../img/symbol-defs.svg';
 
 document.addEventListener('DOMContentLoaded', function () {
-  const triggers = document.querySelectorAll('.ac-trigger');
+  new Accordion('.accordion-container', {
+    duration: 300,
+    elementClass: 'faq-item',
+    triggerClass: 'ac-trigger',
+    panelClass: 'ac-panel',
+    activeClass: 'is-active',
+    showMultiple: true,
+    beforeOpen: item => {
+      const icon = item.querySelector('.icon-answer use');
+      icon.setAttribute('href', `${spriteUrl}#icon-up`);
+    },
+    beforeClose: item => {
+      const icon = item.querySelector('.icon-answer use');
 
-  triggers.forEach(trigger => {
-    trigger.addEventListener('click', function () {
-      const parent = this.closest('.faq-item');
-      const panel = parent.querySelector('.ac-panel');
-      const icon = parent.querySelector('.icon-answer use');
+      icon.setAttribute('href', `${spriteUrl}#icon-down`);
 
-      if (parent.classList.contains('is-active')) {
-        parent.classList.remove('is-active');
-        panel.style.height = '0';
-        icon.setAttribute('href', '../img/symbol-defs.svg#icon-down');
-      } else {
-        parent.classList.add('is-active');
-        panel.style.height = panel.scrollHeight + 'px';
-        icon.setAttribute('href', '../img/symbol-defs.svg#icon-up');
-      }
-    });
+      
+    },
   });
 });

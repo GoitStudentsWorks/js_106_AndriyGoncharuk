@@ -1,9 +1,9 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-
 *,
 *::before,
 *::after {
@@ -16,6 +16,13 @@ body, html {
 .covers-content {
     position: relative;
     z-index: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .covers-marquee {
@@ -23,18 +30,15 @@ body, html {
     right: -800px;
     left: 0;
     overflow: hidden;
-    font-family: "Pridi", sans-serif;
-    font-weight: 600;
-    font-size: 34px;
-    text-transform: uppercase;
+
     background: url(../img/elements_vectors.png) center no-repeat, #242527;
     background-size: contain;
-    margin-top: 0;
 }
 
 .covers-marquee__inner {
     display: flex;
     transform: rotate(16deg);
+    margin-top: 0;
 }
 
 .covers-marquee__line {
@@ -47,17 +51,20 @@ body, html {
     animation-duration: 8s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    margin-right: 20px;
-    margin-top: 20px;
 }
 
 .covers-marquee__line img {
     width: 282.29px;
     height: 162.94px;
     object-fit: fill;
+    margin-right: 20px;
+    margin-top: 25px;
 }
 
-
+section {
+    margin: 0;
+    padding: 0;
+}
 
 @keyframes marqueeLine {
     from {
@@ -87,7 +94,7 @@ body, html {
     }
     .covers-marquee__line {
         margin-right: 40px;
-        margin-top: 40px;
+        margin-top: 45px;
     }
 }
 
@@ -98,6 +105,6 @@ body, html {
     }
     .covers-marquee__line {
         margin-right: 40px;
-        margin-top: 40px;
+        margin-top: 45px;
     }
 }

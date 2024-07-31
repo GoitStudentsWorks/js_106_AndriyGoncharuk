@@ -1,3 +1,7 @@
+#FAQ {
+  padding: 64px 0;
+}
+
 .faq-container {
   max-width: 375px;
   margin: 0 auto;
@@ -34,7 +38,6 @@
   letter-spacing: -0.02em;
   width: 265px;
   color: #fafafa;
-  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
@@ -65,7 +68,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: border 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-item-list {
@@ -80,30 +82,10 @@
 
 .icon-answer {
   display: block;
-  transition: stroke 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   background-repeat: no-repeat;
   height: 20px;
   width: 20px;
   stroke: #fafafa;
-}
-
-.is-active .icon-answer,
-.is-active .title-item-list,
-.title-item-list:hover,
-.title-item-list:active,
-.icon-answer:hover,
-.icon-answer:active,
-.btn-answer:hover .icon-answer {
-  color: #ed3b44;
-  stroke: #1c1d20;
-}
-
-.btn-answer:hover,
-.btn-answer:active,
-.is-active .btn-answer {
-  border: 1px solid #ed3b44;
-  background-color: #ed3b44;
 }
 
 .ac-panel {
@@ -114,6 +96,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  #FAQ {
+    padding: 96px 0;
+  }
+
   .faq-container {
     max-width: 704px;
     margin: 0 auto;
@@ -135,6 +121,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  #FAQ {
+    padding: 164px 0;
+  }
+
   .faq-container {
     max-width: 1376px;
     margin: 0 auto;

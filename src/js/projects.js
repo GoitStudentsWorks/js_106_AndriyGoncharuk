@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Swiper: Slider
     const swiper = new Swiper('.projects-swiper-container', {
         modules: [Navigation, Autoplay, Keyboard],
@@ -59,7 +59,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
-
 
 
 
