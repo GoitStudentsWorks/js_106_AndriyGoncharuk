@@ -12,7 +12,7 @@ if (section) {
   const prevButton = section.querySelector('.reviews-btn-prev');
   const nextButton = section.querySelector('.reviews-btn-next');
 
-  // receiving data from api
+
 
   async function getReviews(value) {
     const BASE_URL = 'https://portfolio-js.b.goit.study/api';
@@ -34,7 +34,7 @@ if (section) {
     }
   }
 
-  // creating markup for review card
+
 
   function renderReview(data) {
     return data
@@ -52,7 +52,7 @@ if (section) {
       .join('');
   }
 
-  // Function to render the reviews
+ 
 
   async function renderReviews() {
     try {
