@@ -277,6 +277,9 @@ section#about-me .swiper-wrapper {
 }
 
 section#about-me ul.swiper-wrapper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 130px;
   height: 130px;
   border-radius: 100px;
@@ -286,8 +289,6 @@ section#about-me ul.swiper-wrapper .swiper-slide {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: -0.02em;
-  text-align: center;
-  padding-top: 53px;
   transition: background-color 250ms ease-in-out;
 }
 
@@ -301,7 +302,6 @@ section#about-me .swiper-slide-active{
     width: 200px;
     height: 200px;
     font-size: 20px;
-    padding-top: 88px;
   }
 }
 
