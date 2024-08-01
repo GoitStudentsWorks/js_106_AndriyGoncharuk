@@ -101,23 +101,6 @@ if (section) {
             prevEl: '.reviews-btn-prev',
           },
         });
-
-        document.addEventListener('keydown', e => {
-          if (e.key === 'ArrowRight') {
-            $swiper.slideNext();
-          } else if (e.key === 'ArrowLeft') {
-            $swiper.slidePrev();
-          } else if (e.key === 'Tab') {
-            const focusedElement = document.activeElement;
-            if (focusedElement === prevButton) {
-              e.preventDefault();
-              nextButton.focus();
-            } else if (focusedElement === nextButton) {
-              e.preventDefault();
-              prevButton.focus();
-            }
-          }
-        });
       } else {
         console.log('No reviews to display');
       }
