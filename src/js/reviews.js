@@ -12,7 +12,7 @@ if (section) {
   const prevButton = section.querySelector('.reviews-btn-prev');
   const nextButton = section.querySelector('.reviews-btn-next');
 
-  // receiving data from api
+
 
   async function getReviews(value) {
     const BASE_URL = 'https://portfolio-js.b.goit.study/api';
@@ -34,7 +34,7 @@ if (section) {
     }
   }
 
-  // creating markup for review card
+
 
   function renderReview(data) {
     return data
@@ -52,7 +52,7 @@ if (section) {
       .join('');
   }
 
-  // Function to render the reviews
+ 
 
   async function renderReviews() {
     try {
@@ -100,23 +100,6 @@ if (section) {
             nextEl: '.reviews-btn-next',
             prevEl: '.reviews-btn-prev',
           },
-        });
-
-        document.addEventListener('keydown', e => {
-          if (e.key === 'ArrowRight') {
-            $swiper.slideNext();
-          } else if (e.key === 'ArrowLeft') {
-            $swiper.slidePrev();
-          } else if (e.key === 'Tab') {
-            const focusedElement = document.activeElement;
-            if (focusedElement === prevButton) {
-              e.preventDefault();
-              nextButton.focus();
-            } else if (focusedElement === nextButton) {
-              e.preventDefault();
-              prevButton.focus();
-            }
-          }
         });
       } else {
         console.log('No reviews to display');
