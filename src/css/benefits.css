@@ -77,6 +77,7 @@
   margin-top: 32px;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .benefits-button:hover {
   background: #e0373f;
