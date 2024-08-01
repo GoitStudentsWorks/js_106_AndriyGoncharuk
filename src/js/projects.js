@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
         }
     });
+    
     function updateNavigationButtons(swiper) {
         const prevButton = document.querySelector('.projects-button-prev');
         const nextButton = document.querySelector('.projects-button-next');
