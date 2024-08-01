@@ -1,8 +1,7 @@
-
-
 import {
   headerSelector,
   handleClickMenuText,
+  handleClickMenuList,
   handleClickHeaderBackdrop,
   handleClickModalMenuClose,
   handleScroll,
@@ -18,4 +17,3 @@ import * as aboutme from './js/about-me.js';
 // import {
 //   swiper
 // } from './js/projects.js';
-

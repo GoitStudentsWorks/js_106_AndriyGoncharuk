@@ -15,6 +15,15 @@ export function handleClickMenuText() {
     ? headerSelector.menuList.classList.remove('is-open')
     : headerSelector.menuList.classList.add('is-open');
 }
+
+headerSelector.menuList.addEventListener('click', handleClickMenuList);
+
+export function handleClickMenuList(event) {
+  if (PointerEvent) {
+    headerSelector.menuList.classList.remove('is-open');
+  }
+}
+
 headerSelector.btnMob.addEventListener('click', handleClickHeaderBackdrop);
 headerSelector.headerModalMenu.addEventListener(
   'click',
