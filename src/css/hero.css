@@ -116,11 +116,8 @@
 @media screen and (min-width: 1440px) {
     .hero {
         height: 900px;
+        padding-left: 178px;
         background-image: url('../img/hero/desktop-hero.png');
-    }
-
-    .box-for-title {
-        margin: 0 auto;
     }
 
     @media screen and (min-resolution: 192dpi) and (min-width: 1440px) {
