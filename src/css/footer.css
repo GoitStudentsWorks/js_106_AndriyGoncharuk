@@ -65,7 +65,7 @@
 }
 
 .footer-form-input {
-  max-width: 100%;
+  width: 343px;
   height: 44px;
   background-color: transparent;
   border: none;
@@ -78,8 +78,18 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  box-sizing: border-box;
 }
-
+.input-wrapper {
+  position: relative;
+  width: 343px;
+}
+.input-mirror {
+  position: absolute;
+  visibility: hidden;
+  white-space: nowrap;
+  box-sizing: border-box; /* Включати padding і border у загальні розміри елемента */
+}
 .footer-form-input:nth-last-child(2) {
   margin-bottom: 32px;
 }
@@ -314,6 +324,9 @@
     width: 245px;
     margin-bottom: 0;
   }
+  .input-wrapper {
+    width: 245px;
+  }
 
   .footer-form-input:nth-last-child(2) {
     margin-bottom: 0;
@@ -380,10 +393,12 @@
   .footer-form-input {
     width: 390px;
   }
-
-  .footer-form-input:nth-last-child(2) {
-    margin-right: 48px;
+  .input-wrapper {
+    width: 390px;
   }
+  /* .footer-form-input:nth-last-child(2) {
+    margin-right: 48px;
+  } */
 }
 
 /*=====2x screens, retina=====*/
