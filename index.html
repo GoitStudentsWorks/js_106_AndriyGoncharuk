@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMTSURBVHgB7Zq/TxNhGMe/d0BC0vR6jqStHpt0gZFN/gDUCi40GloWEiOtS4HNMGlgkMqgTpAYncRfYdBgDDhRprogG4feDW7nHaucz3PYShsaY6/X68V+ksvbe942fb7v+7zP+773noAzkGVFDoWQFgRcsgUMCYACH7BtlOi/VSrf6Lq6dtZ3hFpDX5+S7OrGKn2U0UbYJATHWKgV0nX6Jh5XHggiluljL9oMammZIiIpSTJM09gu2ysCYueVu1TMo90RMBKOyLJlGu/51hEQjSoc78sICNQbw6GQ/PnoyNh3xkA0rhz4NVBdYBxZ6O/63fppBI/enh58F2nQJhFQyPcRkXLsEAIKpdZBkcLnAgIKj1sRAacjwG86AvymI6AWSZKQy844V726gYGLaBYeCAgjl5txrnp1khRBs/A8hKLRKD5tf0Q2e7vKnslMOnaud0M3PMayLBSLu7iTy2Iqk3ZsS4v3EIvFHHskIkHXdTSK5z1gmibys/MYvXy1YmPn2TaRuoG9vS9wg+cCwuGwEz7Pnz2lxcvJFtykXllavI9FutyGkOcCBHJ6aiqDF+svkaIWZ6anb6HwcAXXx8fKmhrG8zHAITQ6egWaplPo/GntQmEFq6trVG/BDS2ZyNh5hvYeWF9/VbG7dZ7xvAdOw9kmPzuHZvL/LiU4g/BElElPVtljLrPKv9KwAIvil/P5+Pg1J1WWGaPMwuzs7KIVCLG4YqMBOKNsbLyFRM5rmuZMSGxLJBJOfSp1EzvFIrymYQEMO/zk8aOq1SVPUvn8HDY3P6AVuBJQhleZiYEENMoy3ButpCkC/KSzI/ObjgC/6QjwG368foigIqDEj9dLCCrU+KIoYAsBhXajrwVFUeSfxzigUGqrg+2/QZGjfvuq9ouqqhrUFRkEDRsLXDjnxHTyvU8n4OeoT4YRBMh5TVOdc+3KST2JeCfJMj/kGEEbQ6Fe0DW18kZB1bsS5g9jKxKRDym++OSyrcYE+WRQ606UW75ir/eDeFxJU5G0T07wB+EDPEdRliyR81uiiDVnvNbwCyeW8h06P+urAAAAAElFTkSuQmCC" />
+    <title>Concerns Everyone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/js_106_AndriyGoncharuk/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_106_AndriyGoncharuk/assets/vendor-b549daa7.js">
+    <link rel="stylesheet" href="/js_106_AndriyGoncharuk/assets/vendor-165de23a.css">
+    <link rel="stylesheet" href="/js_106_AndriyGoncharuk/assets/index-7d5f360f.css">
+  </head>
+
+  <body>
+    <header class="header-top">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a
+        href="./index.html"
+        aria-label="logo-portfolio"
+        class="header-logo-link"
+      >
+        <img
+          class="header-img-logo"
+          src="/js_106_AndriyGoncharuk/assets/img-logo-418ff7d9.png"
+          alt="img-logo"
+          height="80"
+        />
+        <svg class="header-text-logo" width="84" height="19">
+          <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-jefferson"></use>
+        </svg>
+      </a>
+      <div class="header-menu">
+        <p class="header-menu-text">Menu</p>
+        <ul class="header-menu-list">
+          <li class="header-nav-item">
+            <a
+              href="#about-me"
+              class="header-nav-link"
+              aria-label="link about me"
+              >About me</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a
+              href="#benefits"
+              class="header-nav-link"
+              aria-label="link benefits"
+              >Benefits</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a
+              href="#projects"
+              class="header-nav-link"
+              aria-label="link projects"
+              >Projects</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a href="#faq" class="header-nav-link" aria-label="link faq">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <a
+        href="#work-together"
+        aria-label="link work together"
+        class="header-order-link"
+        >Order the project</a
+      >
+      <!-- btn mob -->
+      <button class="header-btn-mob" aria-label="mobile menu open">
+        <svg class="header-btn-mob-icon" width="36" height="35">
+          <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-menu"></use>
+        </svg>
+      </button>
+
+      <!-- btn mob -->
+    </nav>
+  </div>
+
+  <!-- modal-menu -->
+
+  <div class="header-backdrop">
+    <div class="header-modal-menu">
+      <button
+        class="header-modal-menu-close"
+        type="button"
+        aria-label="button mobile menu close"
+      >
+        <svg class="header-modal-menu-close-icon" width="30" height="30">
+          <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="header-modal-menu-nav">
+        <ul class="header-modal-menu-list">
+          <li class="header-modal-menu-item">
+            <a
+              href="#about-me"
+              class="header-modal-menu-link"
+              aria-label="link about me"
+              >About me</a
+            >
+          </li>
+          <li class="header-modal-menu-item">
+            <a
+              href="#benefits"
+              class="header-modal-menu-link"
+              aria-label="link benefits"
+              >Benefits</a
+            >
+          </li>
+          <li class="header-modal-menu-item">
+            <a
+              href="#projects"
+              class="header-modal-menu-link"
+              aria-label="link projects"
+              >Projects</a
+            >
+          </li>
+          <li class="header-modal-menu-item">
+            <a href="#faq" class="header-modal-menu-link" aria-label="link faq"
+              >FAQ</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <a
+        href="#work-together"
+        aria-label="button order"
+        class="header-modal-order-link header-modal-order-btn"
+        >Order the project</a
+      >
+    </div>
+  </div>
+  <!-- go to top -->
+  <div class="go-to-top">↑</div>
+  <!-- go to top -->
+</header>
+
+
+    <main>
+      <section class="hero">
+    <div class="container">
+            
+                <h1 class="hero-title">Hello.
+                    I'm Fullstack developer
+                    Lloyd Jefferson.</h1>
+           
+            
+
+            
+            <ul class="hero-social-media-list">
+                <li><a class="hero-social-media-link" href="https://www.instagram.com/goitclub/" target="_blank" rel="noopener noreferrer" aria-label="hero-ig">
+                        IG
+                    </a></li>
+                <li><a class="hero-social-media-link" href="https://www.facebook.com/goITclub/" target="_blank" rel="noopener noreferrer" aria-label="hero-fb">
+                        FB
+                    </a></li>
+                <li><a class="hero-social-media-link" href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener noreferrer" aria-label="hero-yt">
+                        YT
+                    </a></li>
+                <li><a class="hero-social-media-link" href="https://github.com/AndriyGoncharuk/gr06-project-js" target="_blank" rel="noopener noreferrer" aria-label="hero-gh">
+                        GH
+                    </a></li>
+                <li><a class="hero-social-media-link address-link"
+                        href="mailto:lloydjefferson@gmail.com" rel="noopener noreferrer" aria-label="hero-email">lloydjefferson@gmail.com</a></li>
+            </ul>
+        
+    </div>
+</section>
+      <section id="about-me" data-aos="fade-right" class="about-me">
+  <div class="container about-me-container">
+    <h2 class="about-me-hidden">About Me</h2>
+    <div class="about-me-text-img-container">
+      <p class="about-me-text">
+        I work with people all over the world to create impressive and
+        <span class="about-me-red">functional</span>
+        <span class="about-me-grey">websites</span> that reflect each client's
+        unique personality.
+      </p>
+      <img
+        srcset="/js_106_AndriyGoncharuk/assets/about-me-img-1x-0b14b7e8.webp 1x, /js_106_AndriyGoncharuk/assets/about-me-img-2x-6877a452.webp 2x"
+        src="/js_106_AndriyGoncharuk/assets/about-me-img-1x-0b14b7e8.webp"
+        alt="Lloyd Jefferson"
+        class="about-me-img"
+      />
+    </div>
+
+    <ul class="about-me-accordion-container">
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            About Me
+            <span class="ac-trigger-icon">
+              <svg class="ac-trigger-icon-down">
+                <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+              </svg>
+              <svg class="ac-trigger-icon-up">
+                <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-up"></use>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            I am Lloyd Jefferson, a talented programmer with extensive expertise
+            in software development. I have an understanding of different
+            programming languages and technologies, always ready to improve my
+            skills. I always follow the latest trends and look for
+            unconventional, creative solutions to problems. I have a high level
+            of analytical skills and am able to effectively solve even the most
+            difficult tasks encountered on the way.
+          </p>
+          <p class="about-me-add-text ac-text">
+            Able to work both independently and in a team. I can effectively
+            cooperate with colleagues, exchanging ideas and finding optimal
+            solutions. Professional maturity allows you to calmly cope with
+            challenges and stressful situations, while maintaining a high
+            quality of work. I am always looking for opportunities for
+            self-improvement. I actively study new technologies and practices to
+            stay abreast of the latest innovations. I have a strong
+            understanding of various programming languages, frameworks and
+            architectural concepts that allow me to create efficient and
+            scalable software.
+          </p>
+        </div>
+      </li>
+
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            Role
+            <span class="ac-trigger-icon">
+              <svg class="ac-trigger-icon-down">
+                <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+              </svg>
+              <svg class="ac-trigger-icon-up">
+                <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-up"></use>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <ul class="ac-text">
+            <li class="about-me-ac-list-item">Frontend development</li>
+            <li class="about-me-ac-list-item">HeadlessCMS,Wordpress</li>
+            <li class="about-me-ac-list-item">Blender(enjoy)</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            Education
+            <span class="ac-trigger-icon">
+              <svg class="ac-trigger-icon-down">
+                <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+              </svg>
+              <svg class="ac-trigger-icon-up">
+                <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-up"></use>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <ul class="ac-text">
+            <li class="about-me-ac-list-item">
+              2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+              York
+            </li>
+            <li class="about-me-ac-list-item">
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+              School, New York
+            </li>
+            <li class="about-me-ac-list-item">
+              2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <div class="about-me-skills">
+      <div class="about-me-swiper">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">HTML/CSS</li>
+          <li class="swiper-slide">JavaScript</li>
+          <li class="swiper-slide">React</li>
+          <li class="swiper-slide">Node.js</li>
+          <li class="swiper-slide">React Native</li>
+          <li class="swiper-slide">TypeScript</li>
+          <li class="swiper-slide">Vue.js</li>
+          <li class="swiper-slide">Soft Skills</li>
+        </ul>
+      </div>
+      <div class="swiper-button-next">
+        <button type="button" class="about-me-swiper-btn">
+          <svg class="about-me-swiper-btn-icon">
+            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits-section" data-aos="fade-right" id="benefits">
+  <div class="container container-benefits">
+    <div class="left-div">
+      <h2 class="benefits-title">Benefits of working with me</h2>
+    </div>
+    <div class="right-div">
+      <ul class="benefits-list">
+        <li class="benefits-item">
+          <svg class="benefits-icon" width="24" height="24">
+            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-Servicesuser"></use>
+          </svg>
+
+          <h3 class="benefits-name">Expertise</h3>
+          <p class="benefits-text">
+            As a highly experienced developer, I have deep knowledge of
+            programming and website development.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <svg class="benefits-icon" width="24" height="24">
+            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-Servicesmessage"></use>
+          </svg>
+
+          <h3 class="benefits-name">Communication</h3>
+          <p class="benefits-text">
+            Understanding your needs and wants is my priority and I am always
+            open to discussions and corrections.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <svg class="benefits-icon" width="24" height="24">
+            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-Servicesbrush"></use>
+          </svg>
+          <h3 class="benefits-name">Art</h3>
+          <p class="benefits-text">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <svg class="benefits-icon" width="24" height="24">
+            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-Serviceshourglass"></use>
+          </svg>
+
+          <h3 class="benefits-name">Urgent execution</h3>
+          <p class="benefits-text">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+      <a
+        href="#work-together"
+        aria-label="link work together"
+        class="benefits-button"
+        >Order the project</a
+      >
+    </div>
+  </div>
+</section>
+
+      <section id="projects" data-aos="fade-right" class="projects-section" aria-label="Секція проектів">  
+    <div class="container">
+            <h2 class="projects-title">Projects</h2> 
+            <!-- Slider main container -->
+            <div class="projects-swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="projects swiper-wrapper">
+                    <div class="projects swiper-slide">
+                        <div class="description-content">
+                            <ul class="technologies" aria-label="Список технологій">
+                                <li>#react</li>
+                                <li>#js</li>
+                                <li>#node js</li>
+                                <li>#git</li>
+                            </ul>
+                            <p class="project-name">Programming Across Borders: Ideas, Technologies, Innovations</p>
+                            <a href="https://andriygoncharuk.github.io/gr06-project-js/" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="Переглянути проект Programming Across Borders">See project</a>
+                        </div>
+                        <div class="project-content">
+                            <picture class="project-picture">
+                                <!-- desk -->
+                                <source
+                                media="(min-width: 1440px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_1x_1-c2913e83.jpg 1x, /js_106_AndriyGoncharuk/assets/project_2x_1-54b09c5d.jpg 2x"
+                                />
+
+                                <!-- tab -->
+                                <source
+                                media="(min-width: 768px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_1x_1-c2913e83.jpg 1x, /js_106_AndriyGoncharuk/assets/project_2x_1-54b09c5d.jpg 2x"
+                                />
+                                <!-- mob -->
+                                <source
+                                media="(max-width: 767px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_mobile_1x_1-773ba9b1.jpg 1x, /js_106_AndriyGoncharuk/assets/project_mobile_2x_1-06603cf4.jpg 2x"
+                                />
+                                <img
+                                class="project-pic"
+                                src="/js_106_AndriyGoncharuk/assets/project_mobile_1x_1-773ba9b1.jpg"
+                                alt="Project 1"
+                                width="311"
+                                height="195"
+                                />
+                            </picture> 
+                        </div>
+                    </div>
+                    <div class="projects swiper-slide">
+                        <div class="description-content">
+                            <ul class="technologies" aria-label="Список технологій">
+                                <li>#react</li>
+                                <li>#js</li>
+                                <li>#node js</li>
+                                <li>#git</li>
+                            </ul>
+                            <p class="project-name">Programming Across Borders: Ideas, Technologies, Innovations</p>
+                            <a href="https://andriygoncharuk.github.io/gr06-project-js/" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="Переглянути проект Programming Across Borders">See project</a>
+                        </div>
+                        <div class="project-content">
+                            <picture class="project-picture">
+                                <!-- desk -->
+                                <source
+                                media="(min-width: 1440px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_1x_2-b838ad30.jpg 1x, /js_106_AndriyGoncharuk/assets/project_2x_2-98551fa6.jpg 2x"
+                                />
+                                <!-- tab -->
+                                <source
+                                media="(min-width: 768px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_1x_2-b838ad30.jpg 1x, /js_106_AndriyGoncharuk/assets/project_2x_2-98551fa6.jpg 2x"
+                                />
+                                <!-- mob -->
+                                <source
+                                media="(max-width: 767px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_mobile_1x_2-e2d242fd.jpg 1x, /js_106_AndriyGoncharuk/assets/project_mobile_2x_2-a2c63ec8.jpg 2x"
+                                />
+                                <img
+                                class="project-pic"
+                                src="/js_106_AndriyGoncharuk/assets/project_mobile_1x_2-e2d242fd.jpg"
+                                alt="Project 2"
+                                width="311"
+                                height="195"
+                                />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="projects swiper-slide">
+                        <div class="description-content">
+                            <ul class="technologies" aria-label="Список технологій">
+                                <li>#react</li>
+                                <li>#js</li>
+                                <li>#node js</li>
+                                <li>#git</li>
+                            </ul>
+                            <p class="project-name">Programming Across Borders: Ideas, Technologies, Innovations</p>
+                            <a href="https://andriygoncharuk.github.io/gr06-project-js/" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="Переглянути проект Programming Across Borders">See project</a>
+                        </div>
+                        <div class="project-content">
+                            <picture class="project-picture">
+                                <!-- desk -->
+                                <source
+                                media="(min-width: 1440px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_1x_3-3afeb2a1.jpg 1x, /js_106_AndriyGoncharuk/assets/project_2x_3-1c207fad.jpg 2x"
+                                />
+                                <!-- tab -->
+                                <source
+                                media="(min-width: 768px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_1x_3-3afeb2a1.jpg 1x, /js_106_AndriyGoncharuk/assets/project_2x_3-1c207fad.jpg 2x"
+                                />
+                                <!-- mob -->
+                                <source
+                                media="(max-width: 767px)"
+                                srcset="/js_106_AndriyGoncharuk/assets/project_mobile_1x_3-0d2dcbb5.jpg 1x, /js_106_AndriyGoncharuk/assets/project_mobile_2x_3-44f5e64d.jpg 2x"
+                                />
+                                <img
+                                class="project-pic"
+                                src="./img/project_mobile_1x_3.jpg "
+                                alt="Project 3"
+                                width="311"
+                                height="195"
+                                />
+                            </picture>
+                        </div>
+                    </div>         
+                </div>
+
+
+                <!-- If we need navigation buttons -->
+                
+                <div class="projects-swiper-buttons">
+                    <button class="projects-button-prev" tabindex="0" aria-label="Попередній слайд">
+                        <svg class="projects-icon">
+                            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-arrow-left"></use>
+                        </svg>
+                    </button>
+                    <button class="projects-button-next" tabindex="0" aria-label="Наступний слайд">
+                        <svg class="projects-icon">
+                            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-arrow-right"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+    </div>   
+</section> 
+
+       
+
+      <section id="FAQ" class="section faq" data-aos="fade-right">
+  <div class="container">
+    <h2 class="title-faq" id="faq">FAQ</h2>
+    <ul class="faq-list accordion-container">
+      <li class="faq-item">
+        <div class="questions ac-trigger">
+          <h3 class="title-item-list ac-header">
+            What programming languages are most often used in your project
+          </h3>
+          <button type="button" class="btn-answer">
+            <svg class="icon-answer">
+              <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="text-item-list ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="questions ac-trigger">
+          <h3 class="title-item-list ac-header">
+            What are the deadlines for the project
+          </h3>
+          <button type="button" class="btn-answer">
+            <svg class="icon-answer">
+              <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="text-item-list ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="questions ac-trigger">
+          <h3 class="title-item-list ac-header">
+            What payment methods do you accept?
+          </h3>
+          <button type="button" class="btn-answer">
+            <svg class="icon-answer">
+              <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="text-item-list ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="questions ac-trigger">
+          <h3 class="title-item-list ac-header">How can I contact you</h3>
+          <button type="button" class="btn-answer">
+            <svg class="icon-answer">
+              <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="text-item-list ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="questions ac-trigger">
+          <h3 class="title-item-list ac-header">
+            Do you provide advice or support
+          </h3>
+          <button type="button" class="btn-answer">
+            <svg class="icon-answer">
+              <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="text-item-list ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="questions ac-trigger">
+          <h3 class="title-item-list ac-header">
+            What does the process of developing a software product look like
+            from idea to implementation
+          </h3>
+          <button type="button" class="btn-answer">
+            <svg class="icon-answer">
+              <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <p class="text-item-list ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section id="covers-section">
+        <h2 class="covers-visually-hidden">Covers</h2>
+        <div class="covers-content">
+        <div class="covers-marquee">
+        <ul class="covers-marquee__inner">
+        <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle4_1x-b1b88901.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle4_2x-9579e940.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle4_1x-b1b88901.jpg" 
+                alt="Rectangle 4" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle10_1x-f905d3b4.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle10_2x-59d75331.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle10_1x-f905d3b4.jpg" 
+                alt="Rectangle 10" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle11_1x-dbd16a92.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle11_2x-ed8e552c.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle11_1x-dbd16a92.jpg" 
+                alt="Rectangle 11" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle12_1x-040f9e52.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle12_2x-0603340f.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle12_1x-040f9e52.jpg" 
+                alt="Rectangle 12" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle9_1x-0bd9e6fe.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle9_2x-0b8da1e6.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle9_1x-0bd9e6fe.jpg" 
+                alt="Rectangle 9" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle8_1x-816fdf2b.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle8_2x-50ddd58d.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle8_1x-816fdf2b.jpg" 
+                alt="Rectangle 8" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle7_1x-55e7c635.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle7_2x-53fc8308.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle7_1x-55e7c635.jpg" 
+                alt="Rectangle 7" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle6_1x-e8e67007.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle6_2x-b9ba4e08.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle6_1x-e8e67007.jpg" 
+                alt="Rectangle 6" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle5_1x-bd4ea771.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle5_2x-ae97c814.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle5_1x-bd4ea771.jpg" 
+                alt="Rectangle 5" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle4_1x-b1b88901.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle4_2x-9579e940.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle4_1x-b1b88901.jpg" 
+                alt="Rectangle 4" 
+                width="544"
+                height="314">
+                </li>
+                </ul>
+                <ul class="covers-marquee__inner">
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle5_1x-bd4ea771.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle5_2x-ae97c814.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle5_1x-bd4ea771.jpg"
+                alt="Rectangle 5" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle8_1x-816fdf2b.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle8_2x-50ddd58d.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle8_1x-816fdf2b.jpg"
+                alt="Rectangle 8" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle4_1x-b1b88901.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle4_2x-9579e940.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle4_1x-b1b88901.jpg"
+                alt="Rectangle 4" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle6_1x-e8e67007.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle6_2x-b9ba4e08.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle6_1x-e8e67007.jpg"
+                alt="Rectangle 6" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle5_1x-bd4ea771.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle5_2x-ae97c814.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle5_1x-bd4ea771.jpg"
+                alt="Rectangle 5" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle4_1x-b1b88901.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle4_2x-9579e940.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle4_1x-b1b88901.jpg"
+                alt="Rectangle 4" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle7_1x-55e7c635.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle7_2x-53fc8308.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle7_1x-55e7c635.jpg"
+                alt="Rectangle 7" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle10_1x-f905d3b4.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle10_2x-59d75331.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle10_1x-f905d3b4.jpg" 
+                alt="Rectangle 10" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle11_1x-dbd16a92.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle11_2x-ed8e552c.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle11_1x-dbd16a92.jpg"
+                alt="Rectangle 11" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle12_1x-040f9e52.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle12_2x-0603340f.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle12_1x-040f9e52.jpg" 
+                alt="Rectangle 12" 
+                width="544"
+                height="314">
+                </li>
+                </ul>
+                <ul class="covers-marquee__inner">
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle6_1x-e8e67007.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle6_2x-b9ba4e08.jpg 2x"
+                src="/js_106_AndriyGoncharuk/assets/Rectangle6_1x-e8e67007.jpg" 
+                alt="Rectangle 6" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle12_1x-040f9e52.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle12_2x-0603340f.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle12_1x-040f9e52.jpg"
+                alt="Rectangle 4" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle5_1x-bd4ea771.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle5_2x-ae97c814.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle5_1x-bd4ea771.jpg"
+                alt="Rectangle 5" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle9_1x-0bd9e6fe.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle9_2x-0b8da1e6.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle9_1x-0bd9e6fe.jpg"
+                alt="Rectangle 9" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle8_1x-816fdf2b.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle8_2x-50ddd58d.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle8_1x-816fdf2b.jpg"
+                alt="Rectangle 8" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle7_1x-55e7c635.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle7_2x-53fc8308.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle7_1x-55e7c635.jpg"
+                alt="Rectangle 7" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle10_1x-f905d3b4.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle10_2x-59d75331.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle10_1x-f905d3b4.jpg" 
+                alt="Rectangle 10" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle11_1x-dbd16a92.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle11_2x-ed8e552c.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle11_1x-dbd16a92.jpg"
+                alt="Rectangle 11" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle12_1x-040f9e52.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle12_2x-0603340f.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle12_1x-040f9e52.jpg"
+                alt="Rectangle 12" 
+                width="544"
+                height="314">
+                </li>
+                <li class="covers-marquee__line">
+                <img srcset="/js_106_AndriyGoncharuk/assets/Rectangle6_1x-e8e67007.jpg 1x, /js_106_AndriyGoncharuk/assets/Rectangle6_2x-b9ba4e08.jpg 2x" 
+                src="/js_106_AndriyGoncharuk/assets/Rectangle6_1x-e8e67007.jpg"
+                alt="Rectangle 6" 
+                width="544"
+                height="314">
+                </li>
+                </ul>
+                
+        </div>
+        </div>
+</section>
+
+      <section class="reviews-section" data-aos="fade-right">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+    <div class="swiper">
+      <ul class="reviews-cards swiper-wrapper">
+      </ul>
+      <div class="reviews-swiper-buttons">
+        <button class="reviews-btn-prev" tabindex="0" aria-label="Previous review">
+          <svg class="reviews-icon">
+            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <button class="reviews-btn-next" tabindex="0" aria-label="Next review">
+          <svg class="reviews-icon">
+            <use href="/js_106_AndriyGoncharuk/assets/symbol-defs-40ae15b1.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+      
+    </main>
+
+    
+
+    <footer class="footer glass-bg" id="work-together">
+
+<footer class="footer" data-aos="fade-right" id="work-together">
+
+  <div class="container footer-container">
+    <div class="footer-top">
+      <img
+        class="header-img-logo"
+        src="/js_106_AndriyGoncharuk/assets/img-logo-418ff7d9.png"
+        alt="img-logo"
+        height="80"
+      />
+
+      <!-- <img
+        class="footer-image"
+        srcset="
+          ../img/footer/imagedesktop_1x.png  1x,
+          ../img/footer/imagedesktop_2x.png 2x
+        "
+        src="./img/footer/imagedesktop_1x.png"
+        alt="Djefferson Photo"
+        loading="lazy"
+      /> -->
+
+      <h2 class="footer-title">Let's <span class="title-accent">work</span></h2>
+      <h2 class="footer-title">together</h2>
+    </div>
+    <form class="footer-form">
+      <div class="input-wrapper">
+        <input
+          class="footer-form-input"
+          id="user-email"
+          type="email"
+          name="e-mail"
+          placeholder="clients@gmail.com"
+          autocomplete="off"
+          aria-label="Email"
+          pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+        />
+        <div id="email-mirror" class="input-mirror"></div>
+      </div>
+      <div class="input-wrapper">
+        <input
+          class="footer-form-input"
+          id="user-comment"
+          type="text"
+          name="comments"
+          placeholder="comments"
+          autocomplete="off"
+          aria-label="Comments"
+        />
+        <div id="comment-mirror" class="input-mirror"></div>
+      </div>
+      <button
+        class="footer-form-btn"
+        id="form-btn"
+        type="submit"
+        aria-label="submit form"
+      >
+        Send
+      </button>
+    </form>
+
+    <address class="footer-bottom">
+      <ul class="contacts">
+        <li class="contacts-item contacts-mail">
+          <a
+            class="contacts-link"
+            href="mailto:lloydjefferson@gmail.com"
+            rel="noopener
+            noreferrer"
+            aria-label="Email Lloyd Jefferson"
+            >lloydjefferson@gmail.com</a
+          >
+        </li>
+        <li class="contacts-item contacts-phone">
+          <a
+            class="contacts-link"
+            href="tel:+3801111111111"
+            rel="noopener
+            noreferrer"
+            aria-label="Call Lloyd Jefferson"
+            >+380 11 1111 11 11</a
+          >
+        </li>
+      </ul>
+    </address>
+  </div>
+</footer>
+
+<!-- Modal -->
+
+<div class="footer-backdrop">
+  <div class="modal">
+    <div class="modal-box">
+      <button class="close-btn" type="button" aria-label="close modal">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M18 6L6 18"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M6 6L18 18"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <h3 class="modal-title">Thank you for your interest in cooperation!</h3>
+      <p class="modal-message">
+        The manager will contact you shortly to discuss further details and
+        opportunities for cooperation. Please stay in touch.
+      </p>
+    </div>
+  </div>
+</div>
+<script>
+  function truncateText(input, mirror) {
+    const maxWidth = input.clientWidth; // Максимальна ширина поля вводу
+    const padding =
+      parseInt(getComputedStyle(input).paddingLeft) +
+      parseInt(getComputedStyle(input).paddingRight); // Padding
+    const border =
+      parseInt(getComputedStyle(input).borderLeftWidth) +
+      parseInt(getComputedStyle(input).borderRightWidth); // Border
+    const availableWidth = maxWidth - padding - border; // Доступна ширина для тексту
+
+    mirror.style.fontSize = getComputedStyle(input).fontSize;
+    mirror.style.fontFamily = getComputedStyle(input).fontFamily;
+    mirror.style.padding = getComputedStyle(input).padding;
+    mirror.style.border = getComputedStyle(input).border;
+
+    let text = input.value;
+    let truncatedText = text;
+
+    mirror.textContent = text;
+    if (mirror.offsetWidth > availableWidth) {
+      for (let i = text.length - 1; i >= 0; i--) {
+        mirror.textContent = text.substring(0, i) + '...';
+        if (mirror.offsetWidth <= availableWidth) {
+          truncatedText = text.substring(0, i) + '...';
+          break;
+        }
+      }
+    }
+
+    input.value = truncatedText;
+  }
+
+  const emailInput = document.getElementById('user-email');
+  const emailMirror = document.getElementById('email-mirror');
+  emailInput.addEventListener('input', function () {
+    truncateText(this, emailMirror);
+  });
+
+  const commentInput = document.getElementById('user-comment');
+  const commentMirror = document.getElementById('comment-mirror');
+  commentInput.addEventListener('input', function () {
+    truncateText(this, commentMirror);
+  });
+</script>
+<!-- <script src="./js/footer.js"></script> -->
+
+
+    
+  </body>
+</html>
