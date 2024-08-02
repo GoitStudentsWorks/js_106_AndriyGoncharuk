@@ -18,7 +18,9 @@
 .footer {
   padding: 32px 0 32px 0;
 }
-
+.glass-bg {
+  background: url('../img/footer/Glass_effect.png') right center no-repeat;
+}
 .container.footer-container {
   max-width: 375px;
   margin: 0 auto;
