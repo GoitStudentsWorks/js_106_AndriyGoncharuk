@@ -162,5 +162,3 @@ function handleBackdropClick(e) {
     closeModalWindow();
   }
 }
-
-refs.closeModalBtnEl.addEventListener('click', closeModalWindow);
