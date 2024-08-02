@@ -46,51 +46,7 @@
         Send
       </button>
     </form>
-    <script>
-      function truncateText(input, mirror) {
-        const maxWidth = input.clientWidth; // Максимальна ширина поля вводу
-        const padding =
-          parseInt(getComputedStyle(input).paddingLeft) +
-          parseInt(getComputedStyle(input).paddingRight); // Padding
-        const border =
-          parseInt(getComputedStyle(input).borderLeftWidth) +
-          parseInt(getComputedStyle(input).borderRightWidth); // Border
-        const availableWidth = maxWidth - padding - border; // Доступна ширина для тексту
 
-        mirror.style.fontSize = getComputedStyle(input).fontSize;
-        mirror.style.fontFamily = getComputedStyle(input).fontFamily;
-        mirror.style.padding = getComputedStyle(input).padding;
-        mirror.style.border = getComputedStyle(input).border;
-
-        let text = input.value;
-        let truncatedText = text;
-
-        mirror.textContent = text;
-        if (mirror.offsetWidth > availableWidth) {
-          for (let i = text.length - 1; i >= 0; i--) {
-            mirror.textContent = text.substring(0, i) + '...';
-            if (mirror.offsetWidth <= availableWidth) {
-              truncatedText = text.substring(0, i) + '...';
-              break;
-            }
-          }
-        }
-
-        input.value = truncatedText;
-      }
-
-      const emailInput = document.getElementById('user-email');
-      const emailMirror = document.getElementById('email-mirror');
-      emailInput.addEventListener('input', function () {
-        truncateText(this, emailMirror);
-      });
-
-      const commentInput = document.getElementById('user-comment');
-      const commentMirror = document.getElementById('comment-mirror');
-      commentInput.addEventListener('input', function () {
-        truncateText(this, commentMirror);
-      });
-    </script>
     <address class="footer-bottom">
       <ul class="contacts">
         <li class="contacts-item contacts-mail">
@@ -155,4 +111,49 @@
     </div>
   </div>
 </div>
+<script>
+  function truncateText(input, mirror) {
+    const maxWidth = input.clientWidth; // Максимальна ширина поля вводу
+    const padding =
+      parseInt(getComputedStyle(input).paddingLeft) +
+      parseInt(getComputedStyle(input).paddingRight); // Padding
+    const border =
+      parseInt(getComputedStyle(input).borderLeftWidth) +
+      parseInt(getComputedStyle(input).borderRightWidth); // Border
+    const availableWidth = maxWidth - padding - border; // Доступна ширина для тексту
+
+    mirror.style.fontSize = getComputedStyle(input).fontSize;
+    mirror.style.fontFamily = getComputedStyle(input).fontFamily;
+    mirror.style.padding = getComputedStyle(input).padding;
+    mirror.style.border = getComputedStyle(input).border;
+
+    let text = input.value;
+    let truncatedText = text;
+
+    mirror.textContent = text;
+    if (mirror.offsetWidth > availableWidth) {
+      for (let i = text.length - 1; i >= 0; i--) {
+        mirror.textContent = text.substring(0, i) + '...';
+        if (mirror.offsetWidth <= availableWidth) {
+          truncatedText = text.substring(0, i) + '...';
+          break;
+        }
+      }
+    }
+
+    input.value = truncatedText;
+  }
+
+  const emailInput = document.getElementById('user-email');
+  const emailMirror = document.getElementById('email-mirror');
+  emailInput.addEventListener('input', function () {
+    truncateText(this, emailMirror);
+  });
+
+  const commentInput = document.getElementById('user-comment');
+  const commentMirror = document.getElementById('comment-mirror');
+  commentInput.addEventListener('input', function () {
+    truncateText(this, commentMirror);
+  });
+</script>
 <!-- <script src="./js/footer.js"></script> -->
