@@ -114,8 +114,12 @@
 
 ul.about-me-accordion-container > li.ac {
   margin-top: 20px;
-  border: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fafafa33;
   background-color: #1c1d20;
+  padding-bottom: 32px;
 }
 
 section#about-me .ac.is-active .ac-trigger-icon-down {
@@ -208,7 +212,6 @@ section#about-me li.ac div.ac-panel .ac-text {
   text-align: left;
   color: #fafafa;
   margin-top: 12px;
-  margin-bottom: 32px;
   padding: 0px;
 }
 
@@ -221,12 +224,11 @@ section#about-me li.ac div.ac-panel .ac-text {
 
 section#about-me div.ac-panel p.about-me-add-text {
   margin-top: 32px;
-  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   section#about-me div.ac-panel p.about-me-add-text {
-    margin-top: 16px;
+    margin-top: 32px !important;
   }
 }
 
