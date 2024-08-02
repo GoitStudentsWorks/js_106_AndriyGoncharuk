@@ -16,21 +16,22 @@ document.addEventListener('DOMContentLoaded', function () {
             nextEl: '.projects-button-next',
             prevEl: '.projects-button-prev'
         },
+        onlyInViewport: true,
         autoplay: {
             delay: 3000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true
         },
         slidesPerView: 1,
-        spaceBetween: 20,
+        spaceBetween: 15,
         breakpoints: {
             1440: {
                 slidesPerView: 1,
-                spaceBetween: 30
+                spaceBetween: 32
             },
             768: {
                 slidesPerView: 1,
-                spaceBetween: 20
+                spaceBetween: 32
             }
         },
         on: {
@@ -42,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
         }
     });
+    
     function updateNavigationButtons(swiper) {
         const prevButton = document.querySelector('.projects-button-prev');
         const nextButton = document.querySelector('.projects-button-next');
