@@ -33,12 +33,14 @@ headerSelector.headerModalMenu.addEventListener(
 export function handleClickHeaderBackdrop() {
   // додавання класу для відображення модалки
   headerSelector.headerBackdrop.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
 }
 
 export function handleClickModalMenuClose(event) {
   // якщо натискаємо по пустому полі то нічого не робиться, все інше закриває модалку
   if (event.target.nodeName !== 'DIV') {
     headerSelector.headerBackdrop.classList.remove('is-open');
+    document.body.style.overflow = '';
   }
 }
 
